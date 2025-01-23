@@ -6,8 +6,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(200, 200);
-  img.resize(width/2, height/2);
+  createCanvas(500, 600);
+  img.resize(width, height);
   img.loadPixels();
   noStroke();
 }
